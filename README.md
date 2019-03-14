@@ -1,2 +1,2 @@
 # nginx_file_server
-Set up a nginx file server
+这篇文章将指导如何在Debian系统下搭建简易的文件服务器
