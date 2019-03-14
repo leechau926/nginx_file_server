@@ -66,6 +66,7 @@ nano /etc/nginx/nginx.conf
 server{
     listen 8888;
     server_name name;
+    charset utf-8;
     location / {
         root /home/file;
         access_log on;
