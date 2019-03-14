@@ -77,4 +77,4 @@ server{
 ```shell
 /usr/local/nginx/sbin/nginx  -s reload
 ```
-打开 http://ip-address:88888 即可
+打开 http://ip-address:8888 即可
