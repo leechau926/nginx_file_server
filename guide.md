@@ -54,7 +54,7 @@ root       2115    743  0 15:20 pts/0    00:00:00 grep nginx
 nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
 nginx: configuration file /etc/nginx/nginx.conf test is successful
 ```
-其中 /etc/nginx/nginx/conf 为nginx的配置文件
+其中 /etc/nginx/nginx.conf 为nginx的配置文件
 
 ## 修改nginx.conf
 
@@ -76,6 +76,6 @@ server{
 ```
 重启nginx服务
 ```shell
-/usr/local/nginx/sbin/nginx  -s reload
+/usr/sbin/nginx  -s reload
 ```
 打开 http://ip-address:8888 即可
